@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "exercises"
+version = "1.0.0"
+description = ""
+authors = ["Mert Armagan Sari <mertarmagansari@gmail.com>"]
+readme = "README.md"
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
