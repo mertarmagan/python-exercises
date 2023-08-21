@@ -39,7 +39,7 @@ repos:
     hooks:
       - id: pytest-check
         name: pytest-check
-        entry: pytest --cov=python_exercises
+        entry: poetry run pytest --cov=python_exercises
         language: system
         pass_filenames: false
         always_run: true

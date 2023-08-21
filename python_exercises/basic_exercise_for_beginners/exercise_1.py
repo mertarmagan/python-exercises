@@ -20,12 +20,9 @@ The result is 70
 """
 
 
-def solution(x=None, y=None):
-    # if x, y not given get user input instead
-    num1 = x if x else int(input("number1 = "))
-    num2 = y if y else int(input("number2 = "))
-
-    if num1 * num2 <= 1000:
-        return num1 * num2
+def solution(num1, num2):
+    product = num1 * num2
+    if product <= 1000:
+        return product
     else:
         return num1 + num2
